@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_centerHorizontal="true"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="90dp">
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib1" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib2" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib3" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib4" android:background="@drawable/im10" android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginTop="100dp"  >
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib5" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib6" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib7" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib8" android:background="@drawable/im10" android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginTop="200dp"  >
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib9" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib10" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib11" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib12" android:background="@drawable/im10" android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="90dp" android:layout_marginTop="300dp"  >
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib13" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib14" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib15" android:background="@drawable/im10" android:onClick="onClick"/>
+        <ImageButton android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ib16" android:background="@drawable/im10" android:onClick="onClick"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:text="Restart"
+        android:id="@+id/bnRestart"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+</RelativeLayout>
